@@ -1,6 +1,0 @@
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\CountSubstringOccurrences\bin\Debug\CountSubstringOccurrences.exe.config
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\CountSubstringOccurrences\bin\Debug\CountSubstringOccurrences.exe
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\CountSubstringOccurrences\bin\Debug\CountSubstringOccurrences.pdb
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\CountSubstringOccurrences\obj\Debug\CountSubstringOccurrences.csprojResolveAssemblyReference.cache
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\CountSubstringOccurrences\obj\Debug\CountSubstringOccurrences.exe
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\CountSubstringOccurrences\obj\Debug\CountSubstringOccurrences.pdb

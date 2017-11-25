@@ -1,6 +1,0 @@
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\ReverseString\bin\Debug\ReverseString.exe.config
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\ReverseString\bin\Debug\ReverseString.exe
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\ReverseString\bin\Debug\ReverseString.pdb
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\ReverseString\obj\Debug\ReverseString.csprojResolveAssemblyReference.cache
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\ReverseString\obj\Debug\ReverseString.exe
-C:\Users\rcvet\Radost Computer\Softuni Repos\StringsAndRegex\StringsAndRegEx\ReverseString\obj\Debug\ReverseString.pdb
