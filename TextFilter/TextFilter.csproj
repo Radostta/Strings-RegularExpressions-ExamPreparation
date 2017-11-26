@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89E90E51-6FE4-4D21-A206-A5D6954661CA}</ProjectGuid>
+    <ProjectGuid>{F2FDE9AA-F60D-4103-81BF-AE09CE6A8165}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CountSubstringOccurrences</RootNamespace>
-    <AssemblyName>CountSubstringOccurrences</AssemblyName>
+    <RootNamespace>TextFilter</RootNamespace>
+    <AssemblyName>TextFilter</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountSubstringOccurrences.cs" />
+    <Compile Include="TextFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

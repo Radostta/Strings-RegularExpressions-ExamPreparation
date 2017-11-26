@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89E90E51-6FE4-4D21-A206-A5D6954661CA}</ProjectGuid>
+    <ProjectGuid>{526EEE6F-10E3-4C61-99F4-470520B308B2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CountSubstringOccurrences</RootNamespace>
-    <AssemblyName>CountSubstringOccurrences</AssemblyName>
+    <RootNamespace>MatchPhoneNumbers</RootNamespace>
+    <AssemblyName>MatchPhoneNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountSubstringOccurrences.cs" />
+    <Compile Include="MatchPhoneNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
