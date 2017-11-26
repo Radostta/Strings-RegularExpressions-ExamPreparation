@@ -11,23 +11,20 @@ namespace ReplaceTag
     {
         static void Main(string[] args)
         {
-            Regex pattern = new Regex(@"(?:<|\/)?(?<targetStr>a)");                                 
+            var input = Console.ReadLine();
 
-            string input = Console.ReadLine();            
-
-            while (input != "End")
+            while (input != "end")
             {
-                foreach (Match m in pattern.Matches(input))
-                {
-                    
-                }
+                var regex = @"<a.*?href.*?=(.*)>(.*?)<\/a>";
 
-               
+                var replacement = @"[URL href=$1]$2[/URL]";
 
-                Console.WriteLine(input);
+                var text = Regex.Replace(input, regex, replacement);
+
+                Console.WriteLine(text);
 
                 input = Console.ReadLine();
-            }            
+            }
         }
     }
 }
