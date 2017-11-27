@@ -11,7 +11,7 @@ namespace Trainegram
     {
         static void Main(string[] args)
         {
-            string pattern = @"^(<\[[^a-zA-Z0-9]*?\]\.)(\.\[[0-9A-Za-z]*?\]\.)*?$";
+            string pattern = @"^(<\[[^a-zA-Z0-9\n]*?\]\.)(\.\[[0-9A-Za-z]*?\]\.)*?$";
 
             Regex regex = new Regex(pattern);
 
