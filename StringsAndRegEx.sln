@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchNumbers", "MatchNumber
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceTag", "ReplaceTag\ReplaceTag.csproj", "{1B3049AF-3504-4803-BEA9-9BD97C27E85C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainegram", "Trainegram\Trainegram.csproj", "{454C1BDB-9425-4403-805B-BB034D3E6D46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{1B3049AF-3504-4803-BEA9-9BD97C27E85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B3049AF-3504-4803-BEA9-9BD97C27E85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B3049AF-3504-4803-BEA9-9BD97C27E85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454C1BDB-9425-4403-805B-BB034D3E6D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454C1BDB-9425-4403-805B-BB034D3E6D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454C1BDB-9425-4403-805B-BB034D3E6D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454C1BDB-9425-4403-805B-BB034D3E6D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
