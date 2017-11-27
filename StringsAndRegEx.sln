@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornetComm", "HornetComm\Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixGrid", "PhoenixGrid\PhoenixGrid.csproj", "{AFA4A11C-681B-4458-9FAF-30044EB0392B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regexmon", "Regexmon\Regexmon.csproj", "{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{AFA4A11C-681B-4458-9FAF-30044EB0392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA4A11C-681B-4458-9FAF-30044EB0392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA4A11C-681B-4458-9FAF-30044EB0392B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
