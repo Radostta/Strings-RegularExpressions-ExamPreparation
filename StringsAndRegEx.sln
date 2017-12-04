@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regexmon", "Regexmon\Regexm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalBreakpoint", "CriticalBreakpoint\CriticalBreakpoint.csproj", "{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnduranceRally", "EnduranceRally\EnduranceRally.csproj", "{0AF05E97-1644-41B9-96A8-A498F8044DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLeague", "FootballLeague\FootballLeague.csproj", "{09342B3B-16C5-4EA2-9203-31D4C6F1CE5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF05E97-1644-41B9-96A8-A498F8044DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF05E97-1644-41B9-96A8-A498F8044DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF05E97-1644-41B9-96A8-A498F8044DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF05E97-1644-41B9-96A8-A498F8044DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09342B3B-16C5-4EA2-9203-31D4C6F1CE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09342B3B-16C5-4EA2-9203-31D4C6F1CE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09342B3B-16C5-4EA2-9203-31D4C6F1CE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09342B3B-16C5-4EA2-9203-31D4C6F1CE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
