@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09342B3B-16C5-4EA2-9203-31D4C6F1CE5D}</ProjectGuid>
+    <ProjectGuid>{8197F8D1-D749-4A59-B5CA-B598DA30A344}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FootballLeague</RootNamespace>
-    <AssemblyName>FootballLeague</AssemblyName>
+    <RootNamespace>FootballLeague_SolutionWithSubstring</RootNamespace>
+    <AssemblyName>FootballLeague-SolutionWithSubstring</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FootballLeague-SolutionWithRegex.cs" />
+    <Compile Include="FootballLeague-SolutionWithSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
