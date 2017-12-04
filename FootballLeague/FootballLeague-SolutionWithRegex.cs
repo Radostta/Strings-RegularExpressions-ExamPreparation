@@ -6,19 +6,18 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace FootballLeague //60/100
+namespace FootballLeague
 {
     class FootballLeague
     {
         static void Main(string[] args)
         {
-            var originalKey = Console.ReadLine().ToCharArray();
-            string key = GetKey(originalKey);
+            string key = Console.ReadLine();
+            key = Regex.Escape(key);
 
+            Regex regex = new Regex($@"{key}(.*?){key}.*?{key}(.*?){key}.+?(\d+):(\d+)");
             string input = Console.ReadLine();
-
-            Regex regex = new Regex(key + @"([A-Za-z]+)" + key + @".*" + key + @"([A-Za-z]+)" + key + @".*(\d+):(\d+)");
-            
+           
             var teamsScore = new Dictionary<string, BigInteger>();
             var teamsPoints = new Dictionary<string, long>();
 
@@ -37,9 +36,9 @@ namespace FootballLeague //60/100
 
             Console.WriteLine("League standings:");
 
-            long count = 1;
+            int count = 1;
 
-            foreach (var team in teamsPoints.OrderByDescending(x => x.Value))
+            foreach (var team in teamsPoints.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
             {
                 Console.WriteLine($"{count}. {team.Key} {team.Value}");
                 count++;
@@ -82,15 +81,15 @@ namespace FootballLeague //60/100
             var firstTeamPoints = 0;
             var secondTeamPoints = 0;
 
-            if (long.Parse(firstScore) > long.Parse(secondScore))
+            if (BigInteger.Parse(firstScore) > BigInteger.Parse(secondScore))
             {
                 firstTeamPoints += 3;
             }
-            else if (long.Parse(secondScore) > long.Parse(firstScore))
+            else if (BigInteger.Parse(secondScore) > BigInteger.Parse(firstScore))
             {
                 secondTeamPoints += 3;
             }
-            else if (long.Parse(secondScore) == long.Parse(firstScore))
+            else if (BigInteger.Parse(secondScore) == BigInteger.Parse(firstScore))
             {
                 firstTeamPoints += 1;
                 secondTeamPoints += 1;
@@ -118,34 +117,17 @@ namespace FootballLeague //60/100
         private static void GetTeamNames(string input, Regex regex, out string firstScore, out string secondScore, out string firstTeam, out string secondTeam)
         {
             var match = regex.Match(input);
+
             var firstTeamGroup = match.Groups[1].ToString().ToUpper();
             var secondTeamGroup = match.Groups[2].ToString().ToUpper();
             firstScore = match.Groups[3].ToString();
             secondScore = match.Groups[4].ToString();
+
             var firstTeamName = firstTeamGroup.ToCharArray().Reverse().ToArray();
             var secondTeamName = secondTeamGroup.ToCharArray().Reverse().ToArray();
 
             firstTeam = string.Join("", firstTeamName);
             secondTeam = string.Join("", secondTeamName);
-        }
-
-        private static string GetKey(char[] originalKey)
-        {
-            string key = "";
-
-            foreach (var letter in originalKey)
-            {
-                if (letter == '.' || letter == '?' || letter == '+' || letter == '*' || letter == '/' || letter == '[' || letter == ']' || letter == '(' || letter == ')')
-                {
-                    key += '\\' + letter.ToString();
-                }
-                else
-                {
-                    key += letter.ToString();
-                }
-            }
-
-            return key;
-        }
+        }     
     }
 }
