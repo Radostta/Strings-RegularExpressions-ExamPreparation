@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoenixGrid", "PhoenixGrid\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regexmon", "Regexmon\Regexmon.csproj", "{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalBreakpoint", "CriticalBreakpoint\CriticalBreakpoint.csproj", "{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9261EC6-AE85-40AC-8BCF-AD73AAE45820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06D1040-53CC-4F0E-85EA-9909C4AE6BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
