@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLeague-SolutionWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballLeague-SolutionWithSubstring", "FootballLeague-SolutionWithSubstring\FootballLeague-SolutionWithSubstring.csproj", "{8197F8D1-D749-4A59-B5CA-B598DA30A344}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HornetAssault", "HornetAssault\HornetAssault.csproj", "{D0CC1B0A-D574-4958-906D-E968A369373B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetherRealms", "NetherRealms\NetherRealms.csproj", "{BFF2FA14-9204-4FD6-B5E1-A5740C17731F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{8197F8D1-D749-4A59-B5CA-B598DA30A344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8197F8D1-D749-4A59-B5CA-B598DA30A344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8197F8D1-D749-4A59-B5CA-B598DA30A344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CC1B0A-D574-4958-906D-E968A369373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CC1B0A-D574-4958-906D-E968A369373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CC1B0A-D574-4958-906D-E968A369373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CC1B0A-D574-4958-906D-E968A369373B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF2FA14-9204-4FD6-B5E1-A5740C17731F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF2FA14-9204-4FD6-B5E1-A5740C17731F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF2FA14-9204-4FD6-B5E1-A5740C17731F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF2FA14-9204-4FD6-B5E1-A5740C17731F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
