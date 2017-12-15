@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spyfer", "Spyfer\Spyfer.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wormhole", "Wormhole\Wormhole.csproj", "{5D6D039A-1994-4248-B6ED-222309F5CA79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raincast-MyExam", "Raincast-MyExam\Raincast-MyExam.csproj", "{CE610704-4EF2-4820-9738-F8F621326F0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{5D6D039A-1994-4248-B6ED-222309F5CA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D6D039A-1994-4248-B6ED-222309F5CA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D6D039A-1994-4248-B6ED-222309F5CA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE610704-4EF2-4820-9738-F8F621326F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE610704-4EF2-4820-9738-F8F621326F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE610704-4EF2-4820-9738-F8F621326F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE610704-4EF2-4820-9738-F8F621326F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
